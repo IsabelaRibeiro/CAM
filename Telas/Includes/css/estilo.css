@@ -1,0 +1,673 @@
+/*****************************************Aplicado em todas as tags****************************************************************/
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	font-family: Tahoma, Geneva, sans-serif;
+	border-spacing: 0px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+td {
+	vertical-align: top;
+}
+
+.k-widget .k-window{
+	width: 700px;
+	height: 400px;
+}
+
+/*Aplicado onde a classe estiver dentro de um componente */
+li.k-button {
+	background-color:#c9c9c9;
+	color: #000000;
+}
+
+
+.k-trash-button{
+	border: 2px solid #670000;
+    text-align: right;
+}
+
+
+
+td.clLegenda {
+	font-size: medium;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	font-size: small;
+}
+
+.TituloRelatorio{
+	background-color: #D7E4FF; /*#F0F8FF;*/
+	color: #444444;
+	border: 0;
+	font-weight: bold;
+	border-bottom: 10px #FFFFFF solid;
+	font-size: 12px;
+	text-align: center;	
+}
+
+.TituloRelatorioCB{ /* Com borda branca */
+	background-color: #D7E4FF; /*#F0F8FF;*/
+	color: #444444;
+	font-weight: bold;
+	border: 2px #FFFFFF solid;
+	font-size: 12px;
+	text-align: center;	
+}
+
+.TextoRelatorio{
+	background-color: #FFFFFF; /*#F0F8FF;*/
+	color: #000000;
+	border: 0;
+	font-size: 12px;
+	text-align: center;	
+}
+
+.logo{
+	width: 400px;
+	height: 100px;
+	background: url(Imagens/LogoSGLPreto.png) no-repeat;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+.excelLayout{
+	cursor: pointer;
+	vertical-align: middle; 
+	height: 28px;
+	display: inline;
+}
+
+.fieldlist {
+	margin: 0 0 -1em;
+	padding: 0;
+}
+
+.fieldlist li {
+	list-style: none;
+	padding-bottom: 1em;
+}
+
+/******************************************* CSS para alterar componentes da Kendo ************************************************/
+.k-grid td{
+  white-space: nowrap;
+}
+
+.k-input.k-readonly {
+	color: #a9a9a9;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+}
+
+.k-textbox {
+	font-size: small;
+	width: 250px;
+}
+
+.k-combobox {
+	font-size: small;
+	width: 250px;
+}
+
+.k-multiselect {
+	font-size: small;
+	width: 250px;
+}
+
+.k-numerictextbox {
+	font-size: small;
+	width: 80px;
+}
+
+.k-hierarchy-cell.k-header {
+	background-image: url('kendo/Imagens/toDown.png');
+	background-repeat: no-repeat;
+}
+
+.k-widget.k-tooltip {	
+  background-color: #f5f5f6;
+}
+
+.filterDropdown {
+	display:none;
+	position: absolute;
+	border: 2px solid gray;
+	background-color: white;
+	padding: 5px;
+}
+
+.k-window{
+	width: 500px;
+	height: 300px;
+}
+
+.k-content-grid {
+	overflow-x: scroll;
+}
+
+.k-grid {
+/*	overflow-x: scroll;
+	width:500px;*/
+}
+
+/* ajuste para não bugar Combo no Firefox */
+.k-ff {
+    overflow: inherit !important;
+}
+
+.k-grid .k-state-selected { color: black; font-weight:bold;}
+/****************************************** Aplicado nas tags que tenham class="" ao nome do CSS **********************************/
+
+.cpoObrigatorio{
+	font-weight: bold;
+	color: red;
+}
+
+.dvToolTip {
+	border-width:1px;
+	border-style:solid;
+	border-color: #dbdbde;
+	text-align:left;
+	background-color:#f5f5f6;
+	padding:3px;
+	z-index: 2;
+}
+
+.cabecalho {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	height: 0px;
+}
+
+.clCarregando {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 100000;
+	position: absolute;
+	opacity: 0.5;
+	display: table-cell;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.clCarregandoAjax {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 100000;
+	position: absolute;
+	opacity: 0.5;
+	display: table-cell;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.clCarregando * {
+	vertical-align: middle;
+}
+
+.ppmSeparador {
+	width:95%;
+}
+
+.rodape {
+	background-color: #FF9538;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+}
+
+.clBotoes {
+	text-align: right;
+	width: 99%;
+	background-color: #FF9538;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.clBotoesExtras {
+	text-align: right;
+	width: 99%;
+	background-color: #e8e8ea;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.clPesquisa {
+	text-align: left;
+}
+
+.clMsg {
+	color: red;
+	font-style: italic;
+}
+
+.clSubTitulo{
+	font-size: medium;
+}
+
+.dvForm {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: -30px;
+}
+
+.dvLista {
+	margin: 0px;
+}
+
+.tbLayout {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+.tbForm {
+	width: 100%;
+}
+
+.logoSistema {
+	width: 50px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.tituloRodape {
+	color: #f0f0f0;
+}
+
+.grdDados {
+	margin-left: 0px;
+	font-size: smaller;	
+}
+
+.demo-section {
+	width: 100%;
+	height: 530px;
+}
+
+.rodapeSistema{
+	height: 25px;
+}
+
+.dragdrop{
+	border: medium;
+	border-bottom-color: #316293;
+	
+}
+
+.checkbox-container 
+{
+  max-height: 200px;
+  overflow:auto;
+}
+
+
+/*******************************************************Aplicado onde o Id do componente seja igual ao nome da classe do css********************************/
+#dvMenu {
+	border-spacing: 0px;
+	position: absolute;
+	z-index: 99990;
+	width: 100%;
+	margin: -1px;
+	padding: 0px;
+	font-size: small;
+	border: 0px;
+}
+
+#grdDados {
+	font-size: smaller;	
+}
+
+#dvGrdContainer {
+	font-size: smaller;	
+}
+
+.btnVoltar {
+	background-image: url('../../../Imagens/gmapa-icones/media/return16.png');
+	background-position: 0 0px;
+}
+
+/************************************************************************ CSS do componente Wizard *******************************************************/
+.swMain {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0px solid #CCC;
+	overflow: visible;
+	float: left;
+	width: 100%;
+  min-width: 100%;
+}
+
+.swMain .stepContainer {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0px solid #CCC;
+	overflow: hidden;
+	clear: right;
+}
+
+.swMain .stepContainer div.content {
+	display: block;
+	position: absolute;
+	float: left;
+	margin: 0;
+	padding: 5px;
+	border: 1px solid #CCC;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #5A5655;
+	background-color: #F8F8F8;
+	height: 500px;
+	text-align: left;
+	overflow: auto;
+	z-index: 88;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	width: 98%;
+	clear: both;
+}
+
+.swMain div.actionBar {
+	display: block;
+	position: relative;
+	clear: right;
+	margin: 3px 4px 0 218px;
+	border: 1px solid #CCC;
+	padding: 0;
+	color: #5A5655;
+	background-color: #F8F8F8;
+	height: 40px;
+	max-width: 100%;
+	text-align: left;
+	overflow: auto;
+	z-index: 88;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+}
+
+.swMain .stepContainer .StepTitle {
+	display: block;
+	position: relative;
+	margin: 0;
+	border: 1px solid #E0E0E0;
+	padding: 5px;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #5A5655;
+	background-color: #E0E0E0;
+	clear: both;
+	text-align: left;
+	z-index: 88;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.swMain ul.anchor {
+	position: relative;
+	display: block;
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin: 5px 10px 0 0;
+	border: 0px solid #CCCCCC;
+	background: transparent; /*#EEEEEE */
+}
+
+.swMain ul.anchor li {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 0px solid #E0E0E0;
+	float: left;
+	clear: both;
+}
+
+/* Itens na Lateral */
+.swMain ul.anchor li a {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 3px;
+	height: 97px;
+	width: 200px;
+	text-decoration: none;
+	outline-style: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 99;
+}
+
+.swMain ul.anchor li a .stepNumber {
+	position: relative;
+	float: left;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 0;
+	font: bold 45px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.swMain ul.anchor li a .stepDesc {
+	position: relative;
+	display: block;
+	float: left;
+	text-align: left;
+	padding: 5px;
+	width: 70%;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.swMain ul.anchor li a .stepDesc small {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.swMain ul.anchor li a.selected {
+	color: #F8F8F8;
+	background: #16649b; /* 16649B */
+	border: 1px solid #16649B;
+	cursor: text;
+	-moz-box-shadow: 1px 5px 10px #888;
+	-webkit-box-shadow: 1px 5px 10px #888;
+	box-shadow: 1px 5px 10px #888;
+}
+
+.swMain ul.anchor li a.selected:hover {
+	color: #F8F8F8;
+	background: #16649B;
+}
+
+.swMain ul.anchor li a.done {
+	position: relative;
+	color: #FFF;
+	background: #184f80;
+	border: 1px solid #184f80;
+	z-index: 99;
+}
+
+.swMain ul.anchor li a.done:hover {
+	color: #8B8786;
+	background: #184f80;
+	border: 1px solid #5A5655;
+}
+
+.swMain ul.anchor li a.disabled {
+	color: #CCCCCC;
+	background: #F8F8F8;
+	border: 1px solid #CCC;
+	cursor: text;
+}
+
+.swMain ul.anchor li a.disabled:hover {
+	color: #CCCCCC;
+	background: #F8F8F8;
+}
+
+.swMain ul.anchor li a.error {
+	color: #6c6c6c !important;
+	background: #f08f75 !important;
+	border: 1px solid #fb3500 !important;
+}
+
+.swMain ul.anchor li a.error:hover {
+	color: #000 !important;
+}
+
+.swMain .buttonNext {
+	display: block;
+	float: right;
+	margin: 5px 3px 0 3px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	width: 100px;
+	color: #FFF;
+	outline-style: none;
+	background-color: #5A5655;
+	border: 1px solid #5A5655;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.swMain .buttonDisabled {
+	color: #F8F8F8 !important;
+	background-color: #CCCCCC !important;
+	border: 1px solid #CCCCCC !important;
+	cursor: text;
+}
+
+.swMain .buttonPrevious {
+	display: block;
+	float: right;
+	margin: 5px 3px 0 3px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	width: 100px;
+	color: #FFF;
+	outline-style: none;
+	background-color: #5A5655;
+	border: 1px solid #5A5655;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.swMain .buttonFinish {
+	display: block;
+	float: right;
+	margin: 5px 10px 0 3px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	width: 100px;
+	color: #FFF;
+	outline-style: none;
+	background-color: #5A5655;
+	border: 1px solid #5A5655;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Form Styles */
+
+.txtBox {
+	border: 1px solid #CCCCCC;
+	color: #5A5655;
+	font: 13px Verdana, Arial, Helvetica, sans-serif;
+	padding: 2px;
+	width: 430px;
+}
+
+.txtBox:focus {
+	border: 1px solid #16649B;
+}
+
+.swMain .loader {
+	position: relative;
+	display: none;
+	float: left;
+	margin: 2px 0 0 2px;
+	padding: 8px 10px 8px 40px;
+	border: 1px solid #FFD700;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color: #5A5655;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 998;
+}
+
+.swMain .msgBox {
+	position: relative;
+	display: none;
+	float: left;
+	margin: 4px 0 0 5px;
+	padding: 5px;
+	border: 1px solid #FFD700;
+	background-color: #FFFFDD;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #5A5655;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 999;
+	min-width: 200px;
+}
+
+.swMain .msgBox .content {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px;
+	float: left;
+}
+
+.swMain .msgBox .close {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	color: #CCC;
+	display: block;
+	float: right;
+	margin: 0 0 0 5px;
+	outline-style: none;
+	padding: 0 2px 0 2px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+
+.swMain .msgBox .close:hover {
+	color: #179CE8;
+	border: 1px solid #179CE8;
+}

@@ -1,0 +1,107 @@
+/*****************************************Aplicado em todas as tags****************************************************************/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: small;
+  font-family: Tahoma, Geneva, sans-serif;
+  border-spacing: 0px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.TituloRelatorio {
+  background-color: transparent;
+  color: #444444;
+  font-weight: bold;
+  border: 2px transparent solid;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.PeriodoRelatorio {
+  background-color: transparent;
+  color: #444444;
+  border: 2px #FFFFFF solid;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Logo {
+  width: 200px;
+  height: 55px;
+}
+
+.LogoCliente {
+  height: 55px;
+}
+
+.CabecalhoDados {
+  background-color: #D7E4FF;
+  color: #444444;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  height: 15px;
+}
+
+.CabecalhoDados th {
+  border-left: solid;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 20px;
+}
+
+.QuebraDados {
+  background-color: #D7E4FF;
+  color: #444444;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  height: 15px;
+}
+
+.DadosRelatorio {
+  background-color: transparent;
+  color: #000000;
+  font-size: 13px;
+}
+
+.DadosRelatorio td {
+  border-left: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 20px;
+}
+
+.clBotoes {
+  text-align: right;
+  width: 99%;
+  background-color: #316294;
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+@media print {
+  .clBotoes {
+    display: none;
+  }
+
+  table:nth-last-child(1n+2) {
+    page-break-after: always;
+  }
+
+}

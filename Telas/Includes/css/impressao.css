@@ -1,0 +1,17 @@
+.TituloRelatorio{
+	background-color: #D7E4FF; /*#F0F8FF;*/
+	color: #444444;
+	border: 0;
+	font-weight: bold;
+	border-bottom: 10px #FFFFFF solid;
+	font-size: 12px;
+	text-align: center;	
+}
+
+.TextoRelatorio{
+	background-color: #FFFFFF; /*#F0F8FF;*/
+	color: #000000;
+	border: 0;
+	font-size: 12px;
+	text-align: center;	
+}

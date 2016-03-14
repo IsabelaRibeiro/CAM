@@ -1,0 +1,177 @@
+html,body {
+  margin-left: 1rem;
+  padding: 0rem;
+  font-family: Tahoma, Geneva, sans-serif;
+  border-spacing: 0rem;
+  text-align: justify;
+  font-size: 100%;
+  width: 95%;
+}
+
+p{
+  text-indent: 5em;
+  text-align: justify;
+}
+
+img{
+  max-width: 90%;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.imgRavexCabecalho{
+	width: 200px;
+	text-align: left;
+	background-image: url(http://app.ravex.com.br/sgl/Arquivos/logo-ravex1.png);
+	background-size: 200px auto;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.imgSGLCabecalho{
+	height: 50px;
+    text-align: right;
+    background-image: url(http://app.ravex.com.br/sgl/Arquivos/LogoPadrao.png);
+    background-size: auto 48px;
+    background-repeat: no-repeat;
+    width: 200px;
+	vertical-align: middle;
+}
+
+.imgRavexRodape{
+	width: 200px;
+	text-align: left;
+	background-image: url(http://app.ravex.com.br/sgl/Arquivos/logo-ravex1.png);
+	background-size: 200px auto;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.imgSGLRodape{
+	height: 50px;
+    text-align: right;
+    background-image: url(http://app.ravex.com.br/sgl/Arquivos/LogoPadrao.png);
+    background-size: auto 48px;
+    background-repeat: no-repeat;
+    width: 200px;
+	vertical-align: middle;
+}
+
+
+.titulo{
+	text-align: center;
+	font-size: 1.3em;
+	width: 100%;
+	font-weight: bold;
+}
+
+.tbSubtitulo{
+	width: 100%;
+}
+
+.tbRodape{
+	width: 100%;
+}
+
+.subtitulo{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.page-break { 
+	page-break-before: always; 
+}
+
+@media print {
+	html,body {
+	  margin-left: 20px;
+	  padding: 0px;
+	  font-family: Tahoma, Geneva, sans-serif;
+	  border-spacing: 0px;
+	  text-align: justify;
+	  font-size: 12px;
+	  width: 95%;
+	}
+
+	p{
+	  text-indent: 80px;
+	}
+
+	img{
+	  max-width: 90%;
+	  position: relative;
+	  margin-bottom: 10px;
+	  margin-top: 10px;
+	  border-color: gray;
+	  border-style: solid;
+	  border-width: 1px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.titulo{
+		text-align: center;
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.subtitulo{
+		font-size: 1.1em;
+		font-weight: bold;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	
+	.imgRavexCabecalho{
+		width: 200px;
+		text-align: left;
+		background-image: url(http://app.ravex.com.br/sgl/Arquivos/logo-ravex1.png);
+		background-size: 200px auto;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	}
+	.imgSGLCabecalho{
+		height: 50px;
+		text-align: right;
+		background-image: url(http://app.ravex.com.br/sgl/Arquivos/LogoPadrao.png);
+		background-size: auto 48px;
+		background-repeat: no-repeat;
+		width: 200px;
+		vertical-align: middle;
+	}
+
+	.imgRavexRodape{
+		width: 200px;
+		text-align: left;
+		background-image: url(http://app.ravex.com.br/sgl/Arquivos/logo-ravex1.png);
+		background-size: 200px auto;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	}
+	.imgSGLRodape{
+		height: 50px;
+		text-align: right;
+		background-image: url(http://app.ravex.com.br/sgl/Arquivos/LogoPadrao.png);
+		background-size: auto 48px;
+		background-repeat: no-repeat;
+		width: 200px;
+		vertical-align: middle;
+	}
+	
+	#voltarTopo{
+		display:none; 
+	}
+}
