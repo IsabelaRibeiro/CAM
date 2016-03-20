@@ -51,7 +51,7 @@ unset($_SESSION);
         }
 
         .logo {
-            background-image: url(Imagens/LogoSAD.png);
+            background-image: url(Imagens/Logo.png);
             width: 300px;
             height: 300px;
             background-repeat: no-repeat;
